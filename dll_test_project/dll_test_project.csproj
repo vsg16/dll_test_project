@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary2">
+      <HintPath>..\..\ClassLibrary2\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.dll</HintPath>
+    </Reference>
+    <Reference Include="Library_Digital_RSA">
+      <HintPath>bin\Debug\net7.0-windows\Library_Digital_RSA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
