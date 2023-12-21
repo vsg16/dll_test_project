@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "dll_test_project/1.0.0": {
+        "dependencies": {
+          "ClassLibrary2": "1.0.0.0",
+          "Library_Digital_RSA": "1.0.0.0"
+        },
+        "runtime": {
+          "dll_test_project.dll": {}
+        }
+      },
+      "ClassLibrary2/1.0.0.0": {
+        "runtime": {
+          "ClassLibrary2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Library_Digital_RSA/1.0.0.0": {
+        "runtime": {
+          "Library_Digital_RSA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dll_test_project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary2/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library_Digital_RSA/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
